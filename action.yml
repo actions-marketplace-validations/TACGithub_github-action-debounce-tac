@@ -5,7 +5,7 @@ inputs:
   wait:
     description: 'Time to delay a GitHub Action. Always plan larger than you really need to defeat all GitHub API lags. Default to 5 minutes.'
     required: true
-    default: '400'
+    default: '300'
   token:
     description: 'Personnal GitHub Access Token. Must have the `repo` scope'
     required: false
