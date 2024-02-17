@@ -7,7 +7,7 @@ inputs:
     required: true
     default: '300'
   token:
-    description: 'Personnal GitHub Access Token. Must have the `repo` scope'
+    description: 'Personnal GitHub Access Token. Must have the `repo` scope '
     required: false
     default: ${{ github.token }}
 runs:
