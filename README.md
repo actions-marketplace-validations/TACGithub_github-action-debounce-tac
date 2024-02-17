@@ -11,7 +11,7 @@ Add the following snippet within your workflow, preferably as one of the first s
 ```yaml
   ...
   - name: Debounce 1 minute
-    uses: zachary95/github-actions-debounce
+    uses: TACGithub/github-actions-debounce-tac
     with:
       wait: 60
   ...
