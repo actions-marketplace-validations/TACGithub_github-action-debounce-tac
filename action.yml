@@ -1,6 +1,6 @@
-name: 'Workflow Run Debounce'
-author: 'Zachary E. Dahan'
-description: 'Debounce multiple GitHub Actions Workflow Runs'
+name: 'Workflow Run Debounce TAC'
+author: 'Srivishnu Kannappa'
+description: 'Debounce multiple GitHub Actions Workflow Runs updated to node v20'
 inputs:
   wait:
     description: 'Time to delay a GitHub Action. Always plan larger than you really need to defeat all GitHub API lags. Default to 5 minutes.'
